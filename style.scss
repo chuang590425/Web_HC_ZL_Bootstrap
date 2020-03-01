@@ -3,7 +3,7 @@
     display: block;
 }
 // 自己的樣式
-icon-style{
+.icon-style{
     background: ddd;
     border-radius: 50% !important;
     box-sizing: content-box;
@@ -21,4 +21,24 @@ icon-style{
 .icon-4 {
     width: 32px;
     height: 32px;   
+}
+// RWD
+// >= 1024
+@media screen and (min-width: 1024px) {
+    .carousel-inner {
+        height: 80vh;
+
+        .carousel-caption {
+            bottom: 150px;
+        }
+    }
+}
+
+// >= 1200
+@media screen and (min-width: 1200px) {
+    .carousel-inner {
+        .carousel-caption {
+            bottom: 600px;
+        }
+    }
 }

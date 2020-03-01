@@ -2,14 +2,14 @@
   display: block;
 }
 
-icon-style {
+.icon-style {
   background: ddd;
   border-radius: 50% !important;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
 
-icon-style:hover {
+.icon-style:hover {
   background: skyblue;
 }
 
@@ -21,5 +21,20 @@ icon-style:hover {
 .icon-4 {
   width: 32px;
   height: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-inner {
+    height: 80vh;
+  }
+  .carousel-inner .carousel-caption {
+    bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel-inner .carousel-caption {
+    bottom: 600px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

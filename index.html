@@ -9,7 +9,10 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-         <!-- 自己的樣式 -->
+    <!-- AOS CSS CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- 自己的樣式 -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -30,19 +33,11 @@
                     <a class="nav-link" href="#">關於我</a>
                 </li>
                 <li class="nav-item">
+                        <a class="nav-link" href="#">作品集</a>
+                <li class="nav-item">
                     <a class="nav-link" href="#">聯絡我</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        其他頁面
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">頁面 A</a>
-                        <a class="dropdown-item" href="#">頁面 B</a>
-                        <a class="dropdown-item" href="#">頁面 C</a>
-                    </div>
-                </li>
+
             </ul>
         </div>
     </nav>
@@ -58,22 +53,23 @@
             <div class="carousel-item active">
                 <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h5>橫幅標題</h5>
+                    <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5>橫幅標題</h5>
+                    <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                 </div>
             </div>
+            
             <div class="carousel-item">
                 <img src="/img/banner3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h5>橫幅標</h5>
+                    <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                 </div>
             </div>
         </div>
@@ -89,33 +85,30 @@
 
     <!-- 容器 -->
     <div class="container">
-        <h1 class="text-center py-5">標題</h1>
+        <h1 class="text-center py-5" data-aos="fade-right" data-aos-offset=" 500 ">關於我</h1>
 
         <!-- 卡片 -->
         <div class="card-group">
             <div class="card border-0 p-2 text-center">
                 <img src="./img/icon1.png" class="card-img-top p-5" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">小標題</h5>
+                    <p class="card-text">我是文案，我是文案，我是文案，我是文案，我是文案，我是文案</p>
                 </div>
             </div>
             <div class="card border-0 p-2 text-center">
                 <img src="./img/icon2.png" class="card-img-top p-5" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    <h5 class="card-title">小標題</h5>
+                    <p class="card-text">我是文案，我是文案，我是文案，我是文案，我是文案，我是文案
                     </p>
                 </div>
             </div>
             <div class="card border-0 p-2 text-center">
                 <img src="./img/icon3.png" class="card-img-top p-5" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
+                    <h5 class="card-title">小標題</h5>
+                    <p class="card-text">我是文案，我是文案，我是文案，我是文案，我是文案，我是文案.</p>
                 </div>
             </div>
         </div>
@@ -125,44 +118,44 @@
     <!-- 有灰色背景區塊 -->
     <div class="bg-light my-5 py-5">
         <div class="container">
-                <h1 class="text-center py-5">作品集</h1>
+            <h1 class="text-center py-5">作品集</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-3">
                     <img src="./img/phone.png" alt="手機" class="w-100">
                 </div>
-                <div class="col-9">
-                    <div class="content-box d-inline-flex">
-                        <img src="./img/icon-content1.png" alt="" class="p-2">
+                <div class="col-sm-12 col-md-12 col-lg-9">
+                    <div class="content-box d-inline-flex my-2">
+                        <img src="./img/icon-content1.png" alt="" class="p-3 icon-style icon-5">
                         <div class="p-3">
-                            <h2>次標題</h2>
+                            <h2>次標題</h4>
+                                <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
+                        </div>
+                    </div>
+                    <div class="content-box d-inline-flex my-2">
+                        <img src="./img/icon-content2.png" alt="" class="p-3 icon-style icon-5">
+                        <div class="p-3">
+                            <h4>次標題</h4>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
-                    <div class="content-box d-inline-flex">
-                        <img src="./img/icon-content2.png" alt="" class="p-2">
+                    <div class="content-box d-inline-flex my-2">
+                        <img src="./img/icon-content3.png" alt="" class="p-3 icon-style icon-5">
                         <div class="p-3">
-                            <h2>次標題</h2>
+                            <h4>次標題</h4>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
-                    <div class="content-box d-inline-flex">
-                        <img src="./img/icon-content3.png" alt="" class="p-2">
+                    <div class="content-box d-inline-flex my-2 ">
+                        <img src="./img/icon-content4.png" alt="" class="p-3 icon-style icon-5">
                         <div class="p-3">
-                            <h2>次標題</h2>
+                            <h4>次標題</h4>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
-                    <div class="content-box d-inline-flex ">
-                        <img src="./img/icon-content4.png" alt="" class="p-2">
+                    <div class="content-box d-inline-flex my-2 ">
+                        <img src="./img/icon1.png" alt="" class="p-3 icon-style icon-5">
                         <div class="p-3">
-                            <h2>次標題</h2>
-                            <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
-                        </div>
-                    </div>
-                    <div class="content-box d-inline-flex ">
-                        <img src="./img/icon1.png" alt="" class="p-2">
-                        <div class="p-3">
-                            <h2>次標題</h2>
+                            <h4>次標題</h4>
                             <p>我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案，我是文案。</p>
                         </div>
                     </div>
@@ -206,6 +199,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!--  請安裝在 body 最底下  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
