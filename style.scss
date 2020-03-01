@@ -1,0 +1,24 @@
+// 修改 boostrap
+.card {
+    display: block;
+}
+// 自己的樣式
+icon-style{
+    background: ddd;
+    border-radius: 50% !important;
+    box-sizing: content-box;
+
+    &:hover {
+        background: skyblue;
+    }
+}
+.icon-5 {
+    width: 64px;
+    height: 64px;
+}
+
+
+.icon-4 {
+    width: 32px;
+    height: 32px;   
+}
